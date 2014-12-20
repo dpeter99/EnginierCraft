@@ -8,9 +8,13 @@ public class ModItems
 {
 
     public static final ItemEngCraft circuit = new ItemTestCircuit();
+    public static final ItemEngCraft thungIgnot = new ItemTestCircuit();
 
     public static void init()
     {
+
         GameRegistry.registerItem(circuit,"TestCircuit");
+        GameRegistry.registerItem(thungIgnot,"ThungsramIgnot");
+
     }
 }

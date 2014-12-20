@@ -1,5 +1,6 @@
 package com.dpeter99.enginierCraft.item;
 
+import com.dpeter99.enginierCraft.creativetab.CreativeTabEngCraft;
 import com.dpeter99.enginierCraft.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,7 +13,7 @@ public class ItemEngCraft extends Item
     public ItemEngCraft()
     {
         super();
-
+        this.setCreativeTab(CreativeTabEngCraft.ENG_TAB);
 
     }
 

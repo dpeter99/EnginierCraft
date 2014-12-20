@@ -11,5 +11,6 @@ public class Recipes
     {
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.circuit), " s ", "sss", " s ", 's', "stickWood"));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.flag), "stickWood", new ItemStack(ModItems.circuit)));
+
     }
 }
